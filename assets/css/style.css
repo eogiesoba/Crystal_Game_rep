@@ -3,7 +3,7 @@
 
 html, body {
     height: 100%;
-    background-color:rgb(21, 33, 58);
+    background-color:rgb(56, 65, 87);
     color: #ffffff;
     font-family: 'Oxygen', sans-serif;
 }
@@ -43,36 +43,36 @@ li{
     width: 200px;
     height: 200px;
     padding: 30px 0px;
-    border: solid 2px white;
+    border: solid 1px rgb(27, 0, 25);
     border-radius: 50%;
     display: inline-block;
     font-size: 30px;
-    background-color: rgb(41, 2, 38);
-    box-shadow: 0 15px #ffffff;
+    background-color: rgb(82, 0, 75);
+    box-shadow: 0 15px rgb(27, 0, 25);
     opacity: 0.88;
 }
 .crystal_2 {
     width: 200px;
     height: 200px;
     padding: 30px 0px;
-    border: solid 2px white;
+    border: solid 1px rgb(0, 39, 3);
     border-radius: 50%;
     display: inline-block;
     font-size: 30px;
-    background-color: rgb(3, 58, 7);
-    box-shadow: 0 15px #ffffff;
+    background-color: rgb(0, 85, 6);
+    box-shadow: 0 15px rgb(0, 39, 3);
     opacity: 0.88;
 }
 .crystal_3 {
     width: 200px;
     height: 200px;
     padding: 30px 0px;
-    border: solid 2px white;
+    border: solid 1px rgb(31, 31, 31);
     border-radius: 50%;
     display: inline-block;
     font-size: 30px;
     background-color: rgb(82, 82, 82);
-    box-shadow: 0 15px #ffffff;
+    box-shadow: 0 15px rgb(31, 31, 31);
     opacity: 0.88;
 }
 .crystal_3a{
@@ -82,23 +82,37 @@ li{
     width: 200px;
     height: 200px;
     padding: 30px 0px;
-    border: solid 2px white;
+    border: solid 1px #363300;
     border-radius: 50%;
     display: inline-block;
     font-size: 30px;
     background-color: #797101;
-    box-shadow: 0 15px #ffffff;
+    box-shadow: 0 15px #363300;
     opacity: 0.88;
 }
 
-.crystal_1:hover, .crystal_2:hover, .crystal_3:hover, .crystal_4:hover {
+.crystal_1:hover, .crystal_2:hover, .crystal_3:hover, .crystal_4:hover, .restart:hover {
     opacity: 1;
     cursor: pointer;
 }
 
-.crystal_1:active, .crystal_2:active, .crystal_3:active, .crystal_4:active  {
-    box-shadow: 0 5px #666;
+.crystal_1:active, .crystal_2:active, .crystal_3:active, .crystal_4:active,.restart:active {
     transform: translateY(10px);
+}
+.crystal_1:active {
+    box-shadow: 0 5px rgb(27, 0, 25);
+}
+.crystal_2:active {
+    box-shadow: 0 5px rgb(0, 39, 3);
+}
+.crystal_3:active{
+    box-shadow: 0 5px rgb(31, 31, 31);
+}
+.crystal_4:active{
+    box-shadow: 0 5px #363300;
+}
+.restart:active{
+    box-shadow: 0 5px rgb(32, 0, 0);
 }
 button:focus{
     outline:none;
@@ -114,6 +128,21 @@ h4{
     padding: 5px 0px;
     border-top: solid 1px white;
     background-color: rgb(1, 4, 63);
+    font-weight: 400;
+}
+
+.restart{
+    width: 120px;
+    height: 70px;
+    padding: 10px 0px;
+    margin-top: 50px;
+    border: solid 1px rgb(20, 0, 0);
+    border-radius: 5px;
+    opacity: 0.88;
+    display: inline-block;
+    font-size: 30px;
+    background-color: rgb(95, 0, 0);
+    box-shadow: 0 15px rgb(32, 0, 0);
 }
 
 
