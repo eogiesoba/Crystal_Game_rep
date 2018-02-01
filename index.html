@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -35,11 +36,11 @@
                 <div class="col-md-4"></div>
                 <div class="col-md-2">
                     <h3>WINS</h3>
-                    <div id="t_score" class="box">3</div>
+                    <div id="win" class="box">0</div>
                 </div>
                 <div class="col-md-2">
                     <h3>LOSSES</h3>
-                    <div id="r_number" class="box">654</div>
+                    <div id="loss" class="box">0</div>
                 </div>
                 <div class="col-md-4"></div>
             </div>
@@ -47,34 +48,37 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-2">
-                <h3>Total Score</h3>
-                <div id="t_score" class="box">3</div>
+                <h3>SCORE</h3>
+                <div id="t_score" class="box">0</div>
             </div>
             <div class="col-md-2">
-                <h3>Random #</h3>
-                <div id="r_number" class="box">654</div>
+                <h3>RANDOM #</h3>
+                <div id="r_number" class="box">-</div>
             </div>
             <div class="col-md-4"></div>
         </div>
         <br>
         <div class="row">
-            <div class="col-md-2 col-md-offset-2">
-                <button id="t_score" class="crystal_1">
+            <div class="col-md-2 col-md-offset-1">
+                <button id="ameth" class="crystal_1">
                     <img src="assets/images/Amethyst.png">
                 </button>
             </div>
             <div class="col-md-2">
-                <button id="r_number" class="crystal_2">
+                <button id="peridot" class="crystal_2">
                     <img src="assets/images/Peridot.png">
                 </button>
             </div>
             <div class="col-md-2">
-                <button id="t_score" class="crystal_3">
+                <button id="reset" class="restart">RESET</button>
+            </div>
+            <div class="col-md-2">
+                <button id="quartz" class="crystal_3">
                     <img class="crystal_3a" src="assets/images/Quartz.png">
                 </button>
             </div>
             <div class="col-md-2">
-                <button id="r_number" class="crystal_4">
+                <button id="zircon" class="crystal_4">
                     <img src="assets/images/Zircon.png">
                 </button>
             </div>
@@ -82,11 +86,15 @@
     </div>
     <div class="container-fluid text-center">
         <div class="row">
-            <div class="col-md-12 footer"><h4>Copyright &copy; 2018 Efosa Ogiesoba</h4></div>
+            <div class="col-md-12 footer">
+                <h4>Copyright &copy; 2018 Efosa Ogiesoba</h4>
+            </div>
         </div>
     </div>
 </body>
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </html>
